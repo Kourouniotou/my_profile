@@ -1,0 +1,115 @@
+body{
+	background-image:url("1.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;;
+	background-size: 100% 100%;
+	font-family: arial;
+}
+
+a{
+	font-family: arial;
+	font-size: 90%;
+	color:white;
+}
+
+a:link{
+	color: white;
+  	background-color: transparent;
+ 	text-decoration: underline;
+}
+
+a:visited{
+	color: white;
+	background-color: transparent;
+	text-decoration: underline;
+}
+
+a:hover{
+  	background-color: : white;
+  	background-color: transparent;
+  	text-decoration: underline;
+}
+
+a:active{
+  	color: white;
+  	background-color: transparent;
+  	text-decoration: underline;
+}
+
+.content {
+  	width: 900px;
+  	height: 2000px; 
+  	margin: auto;
+}
+
+
+.leftside, .rightside{
+	width:470px;
+	float:left;
+}
+
+.leftside{
+	height:750px;
+	background: rgb(10, 93, 115);
+	padding:20px;
+	color:white;
+}
+
+.rightside{
+	height:1800px;
+	background: rgb(12, 114, 139);
+	padding:20px;
+	color: white;
+}
+
+h1{
+  	color: white;
+  	font-family: Times New Roman, Times, serif;
+  	font-size: 300%;
+  	font-style: italic;
+}
+
+p{
+	color: white;
+	font-family: Times New Roman, Times, serif;
+	font-style: italic;
+	font-size: 100%;
+}
+
+h2{
+	color: white;
+	font-family: Times New Roman, Times, serif;
+	font-size: 200%;
+	font-style: italic;
+}
+
+h3{
+  	color: white;
+  	font-family: Times New Roman, Times, serif;
+  	font-size: 120%;
+  	font-style: italic;
+}
+
+.headers{
+	color: white;
+  	font-family: Times New Roman, Times, serif;
+  	font-size: 120%;
+  	font-style: italic;
+}
+
+.outer{
+	margin: 15px;
+	border: 1px solid white;
+	width: 300px;
+	height: 22px;
+}
+
+.box{
+	height: 20px;
+	background-color: white;
+	color: rgb(12, 114, 139);
+	text-align: start;
+	display: inline-block;
+	transform:none;
+} 
